@@ -1,0 +1,28 @@
+.board {
+	position: relative;
+	background-color: rgb(156, 156, 156);
+	padding: 10px;
+}
+.player {
+	background-color: orange;
+	position: fixed;
+	transition: all 0.1s;
+}
+.ball {
+	background-color: red;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+}
+.modal {
+	width: 300px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.4;
+	margin: auto;
+	margin-top: 200px;
+}
